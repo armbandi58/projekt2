@@ -1,0 +1,111 @@
+!SESSION 2021-03-24 17:22:08.985 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=hu_HU
+Framework arguments:  E:\Kando\6_felev\projekt2\program\robotarm2_test\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86 E:\Kando\6_felev\projekt2\program\robotarm2_test\.cproject
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-03-24 17:23:04.256
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-03-24 17:23:04.310
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY org.eclipse.ui 2 0 2021-03-24 17:23:16.332
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-03-24 17:23:16.332
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY TrueSTUDIO 1 0 2021-03-24 17:23:17.566
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2021-03-24 17:23:17.568
+!MESSAGE Workspace: E:\Kando\6_felev\projekt2\program
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2021-03-24 17:23:18.057
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2021-03-24 17:23:18.104
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface 2 0 2021-03-24 17:23:18.574
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-24 17:23:18.574
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.search.ui.performTextSearchWorkspace,Find Text in Workspace,
+		Searches the files in the workspace for specific text.,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c0fb12,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,hu,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f19f36,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1aae7f6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2021-03-24 17:23:23.786
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2021-03-24 17:23:24.146
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-24 17:23:24.396
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\borsa'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-03-24 17:23:33.308
+!MESSAGE robotarm2_test needs property 'com.atollic.truestudio.general.runtimelib.719495024' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-03-24 17:23:33.314
+!MESSAGE robotarm2_test needs property 'com.atollic.truestudio.toolchain_options.mcu.411609870' fixed. Fixing to 'STM32F756ZG'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-03-24 17:23:33.317
+!MESSAGE robotarm2_test needs property 'com.atollic.truestudio.toolchain_options.vendor.788067303' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-03-24 17:23:33.838
+!MESSAGE robotarm2_test needs property 'com.atollic.truestudio.general.runtimelib.1235046956' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-03-24 17:23:33.841
+!MESSAGE robotarm2_test needs property 'com.atollic.truestudio.toolchain_options.mcu.1536146599' fixed. Fixing to 'STM32F756ZG'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-03-24 17:23:33.844
+!MESSAGE robotarm2_test needs property 'com.atollic.truestudio.toolchain_options.vendor.121195139' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-03-24 17:23:40.126
+!MESSAGE Indexed 'robotarm2_test' (22 sources, 95 headers) in 6,17 sec: 8 375 declarations; 34 869 references; 18 unresolved inclusions; 280 syntax errors; 1 583 unresolved names (3,5%)
+
+!ENTRY TrueSTUDIO 4 0 2021-03-24 17:25:01.822
+!MESSAGE ST-LINK GDB server failed to start (exit code = 2)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2021-03-24 17:25:01.877
+!MESSAGE Error in initializing ST-Link device.
+Reason: (2) ST-Link DLL error.
+
+!ENTRY TrueSTUDIO 4 0 2021-03-24 17:25:15.294
+!MESSAGE ST-LINK GDB server failed to start (exit code = 6)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2021-03-24 17:25:15.339
+!MESSAGE Error in initializing ST-Link device.
+Reason: (6) ST-Link firmware upgrade required.
+Please upgrade the ST-Link firmware using the upgrade tool. Reconnect ST-LINK and click OK
+
+!ENTRY org.eclipse.ui 4 4 2021-03-24 17:25:45.210
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.TaskList.
