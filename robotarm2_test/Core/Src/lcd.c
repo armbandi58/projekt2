@@ -4,7 +4,7 @@
  *  Created on: 2021. febr. 17.
  *      Author: borsa
  */
-
+/*
 #include "lcd.h"
 
 void LCD_int(uint32_t number, int lenght, char *res){
@@ -94,7 +94,7 @@ void LCD_string(char *p){
 		p++; //lépünk mindig tovabb
 	}
 }
-/*
+
 void LCD_goto(uint8_t row, uint8_t col){
 	switch(row){
 		case 1:
@@ -115,7 +115,7 @@ void LCD_goto(uint8_t row, uint8_t col){
 			break;
 	}
 }
-*/
+
 void LCD_enable(void){
 	//LCD_E 0-1-0 atmenetet kell megcsinalnunk
 	HAL_GPIO_WritePin(LCD_E_GPIO_Port,LCD_E_Pin,RESET);
@@ -228,3 +228,4 @@ void LCD_init_customcurzor(bool on, bool blink){
 	LCD_command(0x08|(1<<LCD_E)|(on<<LCD_Curzor)|(blink<<LCD_Curzor_blink));
 }
 
+*/

@@ -4,7 +4,7 @@
  *  Created on: 2021. febr. 17.
  *      Author: borsa
  */
-
+/*
 #include "matrix.h"
 
 unsigned char billmatrix(unsigned char *row){
@@ -62,7 +62,7 @@ unsigned char billmatrix(unsigned char *row){
 		*row = 0;
 
 	return 12;
-}
+}*/
 /*
 const unsigned char billtomb1[12] = {69, 14, 13, 11, 22, 21, 19, 38, 37, 35, 70, 67};
 uint8_t row = 3;
