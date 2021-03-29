@@ -4,7 +4,7 @@
  *  Created on: 2021. febr. 17.
  *      Author: borsa
  */
-/*
+
 #include "lcd.h"
 
 void LCD_int(uint32_t number, int lenght, char *res){
@@ -12,6 +12,13 @@ void LCD_int(uint32_t number, int lenght, char *res){
 	//sprintf(stringecske, "%d",number);
 	sprintf(res, "%d",number);
 	//LCD_string(stringecske);
+}
+
+void LCD_int2(uint32_t number, int lenght){
+	unsigned char stringecske[lenght];
+	sprintf(stringecske, "%d",number);
+	//sprintf(res, "%d",number);
+	LCD_string(stringecske);
 }
 
 void reverse(char* str, int len)
@@ -76,13 +83,9 @@ void LCD_ide(u8 sor, u8 hely){
 }
 
 void LCD_test(){
-	LCD_ide(0,0);
+	LCD_goto(0,0);
 	LCD_string("Menjen - Menjen");
-	LCD_ide(1,0);
-	LCD_string("Menjen - Menjen");
-	LCD_ide(2,0);
-	LCD_string("Menjen - Menjen");
-	LCD_ide(3,0);
+	LCD_goto(1,0);
 	LCD_string("Menjen - Menjen");
 	HAL_Delay(1000);
 	LCD_command(0x01);
@@ -97,14 +100,14 @@ void LCD_string(char *p){
 
 void LCD_goto(uint8_t row, uint8_t col){
 	switch(row){
-		case 1:
+		case 0:
 			LCD_command(0x80);
 			for(uint8_t i = col; i--; i>0){
 				LCD_command(0x14);
 			}
 			break;
 
-		case 2:
+		case 1:
 			LCD_command(0xC0);
 			for(uint8_t i = col; i--; i>0){
 				LCD_command(0x14);
@@ -133,10 +136,10 @@ void LCD_command(uint8_t cmd){
 	//1. felso 4 adatbit
 	HAL_GPIO_WritePin(LCD_Rs_GPIO_Port,LCD_Rs_Pin,RESET);
 
-	HAL_GPIO_WritePin(LCD_DATA7_GPIO_Port,LCD_DATA7_Pin, (cmd>>7)&0x01);
-	HAL_GPIO_WritePin(LCD_DATA6_GPIO_Port,LCD_DATA6_Pin, (cmd>>6)&0x01);
-	HAL_GPIO_WritePin(LCD_DATA5_GPIO_Port,LCD_DATA5_Pin, (cmd>>5)&0x01);
-	HAL_GPIO_WritePin(LCD_DATA4_GPIO_Port,LCD_DATA4_Pin, (cmd>>4)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_7_GPIO_Port,LCD_DATA_7_Pin, (cmd>>7)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_6_GPIO_Port,LCD_DATA_6_Pin, (cmd>>6)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_5_GPIO_Port,LCD_DATA_5_Pin, (cmd>>5)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_4_GPIO_Port,LCD_DATA_4_Pin, (cmd>>4)&0x01);
 
 
 	//enable közte, meg utana
@@ -145,10 +148,10 @@ void LCD_command(uint8_t cmd){
 
 	//2. also 4 adatbit
 
-	HAL_GPIO_WritePin(LCD_DATA7_GPIO_Port,LCD_DATA7_Pin, (cmd>>3)&0x01);
-	HAL_GPIO_WritePin(LCD_DATA6_GPIO_Port,LCD_DATA6_Pin, (cmd>>2)&0x01);
-	HAL_GPIO_WritePin(LCD_DATA5_GPIO_Port,LCD_DATA5_Pin, (cmd>>1)&0x01);
-	HAL_GPIO_WritePin(LCD_DATA4_GPIO_Port,LCD_DATA4_Pin, (cmd>>0)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_7_GPIO_Port,LCD_DATA_7_Pin, (cmd>>3)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_6_GPIO_Port,LCD_DATA_6_Pin, (cmd>>2)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_5_GPIO_Port,LCD_DATA_5_Pin, (cmd>>1)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_4_GPIO_Port,LCD_DATA_4_Pin, (cmd>>0)&0x01);
 
 	//enable
 
@@ -163,10 +166,10 @@ void LCD_data(uint8_t data){
 
 	HAL_GPIO_WritePin(LCD_Rs_GPIO_Port,LCD_Rs_Pin,SET);
 
-	HAL_GPIO_WritePin(LCD_DATA7_GPIO_Port,LCD_DATA7_Pin, (data>>7)&0x01);
-	HAL_GPIO_WritePin(LCD_DATA6_GPIO_Port,LCD_DATA6_Pin, (data>>6)&0x01);
-	HAL_GPIO_WritePin(LCD_DATA5_GPIO_Port,LCD_DATA5_Pin, (data>>5)&0x01);
-	HAL_GPIO_WritePin(LCD_DATA4_GPIO_Port,LCD_DATA4_Pin, (data>>4)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_7_GPIO_Port,LCD_DATA_7_Pin, (data>>7)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_6_GPIO_Port,LCD_DATA_6_Pin, (data>>6)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_5_GPIO_Port,LCD_DATA_5_Pin, (data>>5)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_4_GPIO_Port,LCD_DATA_4_Pin, (data>>4)&0x01);
 
 	//enable közte, meg utana
 
@@ -174,10 +177,10 @@ void LCD_data(uint8_t data){
 
 	//2. also 4 adatbit
 
-	HAL_GPIO_WritePin(LCD_DATA7_GPIO_Port,LCD_DATA7_Pin, (data>>3)&0x01);
-	HAL_GPIO_WritePin(LCD_DATA6_GPIO_Port,LCD_DATA6_Pin, (data>>2)&0x01);
-	HAL_GPIO_WritePin(LCD_DATA5_GPIO_Port,LCD_DATA5_Pin, (data>>1)&0x01);
-	HAL_GPIO_WritePin(LCD_DATA4_GPIO_Port,LCD_DATA4_Pin, (data>>0)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_7_GPIO_Port,LCD_DATA_7_Pin, (data>>3)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_6_GPIO_Port,LCD_DATA_6_Pin, (data>>2)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_5_GPIO_Port,LCD_DATA_5_Pin, (data>>1)&0x01);
+	HAL_GPIO_WritePin(LCD_DATA_4_GPIO_Port,LCD_DATA_4_Pin, (data>>0)&0x01);
 
 	//enable
 
@@ -228,4 +231,3 @@ void LCD_init_customcurzor(bool on, bool blink){
 	LCD_command(0x08|(1<<LCD_E)|(on<<LCD_Curzor)|(blink<<LCD_Curzor_blink));
 }
 
-*/

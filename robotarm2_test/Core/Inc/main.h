@@ -32,11 +32,20 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <math.h>
+#include <inttypes.h>
+#include <stdbool.h>
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
+typedef unsigned char uch;
+typedef uint8_t u8;
+typedef uint16_t u16;
+typedef uint32_t u32;
+
+typedef volatile uint8_t v8;
+typedef volatile bool vb;
 
 /* USER CODE END ET */
 
@@ -60,6 +69,18 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define btn_Pin GPIO_PIN_13
 #define btn_GPIO_Port GPIOC
+#define LCD_Rs_Pin GPIO_PIN_7
+#define LCD_Rs_GPIO_Port GPIOE
+#define LCD_E_Pin GPIO_PIN_10
+#define LCD_E_GPIO_Port GPIOE
+#define LCD_DATA_4_Pin GPIO_PIN_12
+#define LCD_DATA_4_GPIO_Port GPIOE
+#define LCD_DATA_5_Pin GPIO_PIN_14
+#define LCD_DATA_5_GPIO_Port GPIOE
+#define LCD_DATA_6_Pin GPIO_PIN_15
+#define LCD_DATA_6_GPIO_Port GPIOE
+#define LCD_DATA_7_Pin GPIO_PIN_10
+#define LCD_DATA_7_GPIO_Port GPIOB
 #define led_red_Pin GPIO_PIN_14
 #define led_red_GPIO_Port GPIOB
 #define led_blue_Pin GPIO_PIN_7

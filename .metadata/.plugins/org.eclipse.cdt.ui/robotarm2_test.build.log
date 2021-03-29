@@ -1,6 +1,19 @@
-23:06:00 **** Incremental Build of configuration Debug for project robotarm2_test ****
+22:48:38 **** Incremental Build of configuration Debug for project robotarm2_test ****
 Info: Internal Builder is used for build
-Info: Parallel threads used: 0
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m7 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F756xx -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\main.o ..\Core\Src\main.c 
+arm-atollic-eabi-gcc -o robotarm2_test.elf Core\Src\adc.o Core\Src\dma.o Core\Src\gpio.o Core\Src\lcd.o Core\Src\main.o Core\Src\matrix.o Core\Src\stm32f7xx_hal_msp.o Core\Src\stm32f7xx_it.o Core\Src\syscalls.o Core\Src\system_stm32f7xx.o Core\Src\tim.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc_ex.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_exti.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.o Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.o startup\startup_stm32f756xx.o -mthumb -mcpu=cortex-m7 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -T../STM32F756ZG_FLASH.ld -specs=nosys.specs -static -Wl,-Map=robotarm2_test.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list robotarm2_test.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  19932	    120	   2068	  22120	   5668	robotarm2_test.elf
+Print size information done
+Generate listing file
+Output sent to: robotarm2_test.list
+Generate listing file done
+Generate build reports done
+arm-atollic-eabi-objcopy.exe -O ihex robotarm2_test.elf robotarm2_test.hex 
+Info: Parallel threads used: 1
 
-23:06:00 Build Finished (took 134ms)
+22:48:39 Build Finished (took 1s.168ms)
 

@@ -153,7 +153,7 @@
             referrer = localStorage.getItem('st-referrer') || referrer;
             localStorage.removeItem('st-referrer');
         }
-        window.digitalData = {"page":{"pageInfo":{"breadCrumbs":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","pageShortName":"products:[...]:truestudio","pageName":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","destinationURL":"https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.html","isIframe":false,"contentIframe":false,"hierarchie1":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","hierarchie2":"","sysEnv":"desktop","pageID":"www.st.com:content:st_com_cx:en:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","server":"www.st.com","urlShortcut":""},"category":{"primaryCategory":"","type":"","version":""},"attributes":{"version":"4.18.0","language":"en"},"components":{}},"product":[{"productInfo":{"tree":{"level1":"Development Tools","level2":"Software Development Tools","level3":"STM32 Software Development Tools","level4":"","level5":"STM32 IDEs","level6":"TrueSTUDIO"},"productName":"truestudio","productID":"TrueSTUDIO","prmisID":"PF257464","breadcrumb":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio"}}],"application":[{"applicationInfo":{"level0":"","level1":"","level2":"","level3":"","level4":""}}],"user":[{"profile":[{"profileInfo":{},"attributes":{"loggedIn":false}}]}],"pageInstanceID":"eu:03:prod:ams:publish:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","language":"en"};
+        window.digitalData = {"page":{"pageInfo":{"breadCrumbs":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","pageShortName":"products:[...]:truestudio","pageName":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","destinationURL":"https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.html","isIframe":false,"contentIframe":false,"hierarchie1":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","hierarchie2":"","sysEnv":"desktop","pageID":"www.st.com:content:st_com_cx:en:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","server":"www.st.com","urlShortcut":""},"category":{"primaryCategory":"","type":"","version":""},"attributes":{"version":"4.18.0","language":"en"},"components":{}},"product":[{"productInfo":{"tree":{"level1":"Development Tools","level2":"Software Development Tools","level3":"STM32 Software Development Tools","level4":"","level5":"STM32 IDEs","level6":"TrueSTUDIO"},"productName":"truestudio","productID":"TrueSTUDIO","prmisID":"PF257464","breadcrumb":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio"}}],"application":[{"applicationInfo":{"level0":"","level1":"","level2":"","level3":"","level4":""}}],"user":[{"profile":[{"profileInfo":{},"attributes":{"loggedIn":false}}]}],"pageInstanceID":"eu:01:prod:ams:publish:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","language":"en"};
 		window.digitalData.page.pageInfo.referringURL = referrer;
 		window.digitalData.page.pageInfo.originalURL  = document.location.href;
 
@@ -227,7 +227,7 @@ if (dtmIsChinesePublish || dtmCookiesEnabled) {
 
 
 
-                          <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("True"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="S6E6P-GUZUJ-ZZPJS-A3JNT-7VHUF",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(c){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"S6E6P-GUZUJ-ZZPJS-A3JNT-7VHUF";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="yhqcr7iccwwfwyc3wcjq-f-d19f1e1ef-clientnsv4-s.akamaihd.net",i={"ak.v":"30","ak.cp":"1143712","ak.ai":parseInt("681189",10),"ak.ol":"0","ak.cr":7,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"30d02249","ak.r":39554,"ak.a2":n,"ak.m":"b","ak.n":"essl","ak.bpcip":"193.224.40.0","ak.cport":55881,"ak.gh":"2.21.172.87","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1616621715","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==sOzEcNdvInNC68mlTIh6crg+LYqJ9Fiodqqr2APTqj+W1PecBZoxa9r+F9Q1luYoD0gXrSaTxP4tLVyY96H4nUJYDX3EtRaERWiPRiuaKl3c9m+EzGO+k/zncl0BtiJTVtgStBoWHTfF8JOGjaZil/DnYnBHTN1gwm1RpSsUf+wAMuW/9jBsYaJYpTQlvGxMYV1V/dmAxlPSolozdW0p4e3B1OK+TpYnR5JPf2/0/Hsg6ttJo0kvrzV60Qqa5fEMd7eztI5nvUa1qya5OP7Bavg2no1fjI2awi69QlmRdIy6So/o2JqdoHqklXDqgCzz5Kx6lU5nySv5oJ2PRd6GhdFInSj/LeBARFs+wxNVFeMXJMIDXYM/MjiT3kgwl/WEkBIr4I/zP30SzTGPiggSYDfG+TvinoA6UWaX1kvrt6c=","ak.pv":"9","ak.dpoabenc":""};if(""!==t)i["ak.ruds"]=t;var o={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!o.i){var e=BOOMR.subscribe;e("before_beacon",o.av,null,null),e("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+                          <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("True"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="S6E6P-GUZUJ-ZZPJS-A3JNT-7VHUF",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(c){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"S6E6P-GUZUJ-ZZPJS-A3JNT-7VHUF";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="yhqcr7ix2rxiwydchnsa-f-310484f1d-clientnsv4-s.akamaihd.net",i={"ak.v":"31","ak.cp":"1143712","ak.ai":parseInt("681189",10),"ak.ol":"0","ak.cr":12,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"1504960e","ak.r":39112,"ak.a2":n,"ak.m":"b","ak.n":"essl","ak.bpcip":"193.224.40.0","ak.cport":50774,"ak.gh":"23.212.110.135","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1617050468","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==lWcTJKxG3tR+q0d4E/48H9oDXKkBL2ab+oFOLEJtlTBsk72r7vedjrUVdNd4T6f/JJ2XdZfs3trpi8LQmAxvoTRciO5xyP/U8E494xqdFRbTcMl1scketWbLbjSNb1qoHkHn2TLDQilcVB818yrIo/pYrskW88ZTf1z2Y+9lSXZ1McobuvcimFrPGWjDuzZgFQe+24vrksReFSCiwkbi8caD/274DEe1lOgPCYiP96MmphUfA9sQHotPzBiFYQgE6I+Kgg3J3U6ehDS8+BLgr4C5PsW/SChJZPqyTxrk/Zx1hWe73Z0GGHdTq/CWfx7uf2HpWgFyo93Xb28K2EApgndP4ixf/jBEJZ59DNrzSkjYhlpGa3XBqMuVLfMYyFPjChkvV2aAVi3Ey9GIu6+PjcJ/gpMz0RBy/2r2BM24nGY=","ak.pv":"9","ak.dpoabenc":""};if(""!==t)i["ak.ruds"]=t;var o={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!o.i){var e=BOOMR.subscribe;e("before_beacon",o.av,null,null),e("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
 
 <body id="st-site" class="cxv1">
     <script type="text/javascript">
@@ -2126,7 +2126,7 @@ If you still can't download the software, please reach out to us on the <a href=
 
     
 
-    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1616616622775.product=TrueSTUDIO_Win.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Win">
+    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1617033201810.product=TrueSTUDIO_Win.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Win">
         
         <script id="PF257464_CP535563_9_3_0">
             var gsContent = $("#PF257464_CP535563_9_3_0").parent();
@@ -2174,7 +2174,7 @@ If you still can't download the software, please reach out to us on the <a href=
                 unique session ID of <=20 characters (ex. "1000" || "asdf" || "1000asdf")
                 (see: https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html)
         -->
-        <a id="gatherEmail" data-id="CP535563" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1616616622775.product=TrueSTUDIO_Win.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Win" data-registration="light registration" data-session="" data-download-path-encrypted="KdURc5K7vu1FJf3DPsolUQ==,Pxpd8vTOqbe3eebF3VSfDo1YX7yI/kfXPWUH1N4MUhnHM5leaUzsfJLJ0ETquEseGqzREnOqvDAyTOV9Je0WFSXfxUd/T+IGTf6Z6UCIv0UOruKxRApj/EQa7B75s1BeRBGbLpfL2M53R1PeY17OkwbTI/kqbALMkPN7dRoEHUEFfGNitwuhh8b8Cspp73SpjiXvos9ZILdWkbwBGo/Qdnz8BOmJ2/GSo+QuByCpZdILhNso7kAcy2DuRVSE4EJEQatw3oFV1j4s4k9DqxeNQW22OfWooBmqlRx2AAOTksY=" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
+        <a id="gatherEmail" data-id="CP535563" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1617033201810.product=TrueSTUDIO_Win.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Win" data-registration="light registration" data-session="" data-download-path-encrypted="ZYaUhhaVBajgJCU54kFMjA==,YUdko3jApSbAy15qsk4hYW/Tju/jVLVzviC1tfIK9qeygu+6o9Os3lU/HybzkKg9yzQpoXlmwM7Gvc2MeFohme0OVn0nMrCLo1LJslTInUMwbzK+dcGlGyN8oy8lM/Fj8n49Co4NxW6UY5t7qXEq/GpkqQu+zHlvbvOHK6K3olPQeQlAfBf/EzEWO9NM+EwOVPpetGVbCTQL3r55i64xvylfsOs9f6q5CB3hbvS1vL7IhsEDgpiArE0wKmX0G5Yqu2Js3AhRHT/uLkVG6Qvb1IpedMIMIk/lNB8ECSKAHIA=" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
             
     
 
@@ -2584,7 +2584,7 @@ ST uses the personal data that you provide directly to it and through your activ
 
     
 
-    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1616616622780.product=TrueSTUDIO_Lin.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Lin">
+    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1617033201814.product=TrueSTUDIO_Lin.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Lin">
         
         <script id="PF257464_CP535564_9_3_0">
             var gsContent = $("#PF257464_CP535564_9_3_0").parent();
@@ -2632,7 +2632,7 @@ ST uses the personal data that you provide directly to it and through your activ
                 unique session ID of <=20 characters (ex. "1000" || "asdf" || "1000asdf")
                 (see: https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html)
         -->
-        <a id="gatherEmail" data-id="CP535564" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1616616622780.product=TrueSTUDIO_Lin.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Lin" data-registration="light registration" data-session="" data-download-path-encrypted="p7LG7kcoHrJ28SRF6fmrGQ==,lPcGFe6513JPu0H6oU1b/Ewgq8fS1bmp2MZ6FZgg78ynPOpxxEAeXKYNk3cbbDjH9E75eh5DFMwEGMt+LNbnS28PYaohRydkI5nGy1Z6pb33aWbocUhgiG9Tdk7fuHLzQXa0hUHS+HDamm9rnD3JbGZR9xgVeKtksNQBDkpI3ohVPPdLFxaU9trYQWV57yUyYy/7ri9aVTZoTx40SSLq7CKnUYtluUV24SNYUY0TshggsC3+uMDmn5wqkHCnJRWqznPTVPrfh7gMyQR2UMBOXQ==" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
+        <a id="gatherEmail" data-id="CP535564" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1617033201814.product=TrueSTUDIO_Lin.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Lin" data-registration="light registration" data-session="" data-download-path-encrypted="JxUEMDykKkLo2VNgncfmVQ==,6pnhk2XmK+qA1nwX69cZts+fdQGP6Sh1xgTFiWVEplX6vBW/G+/qZsztLd+wVArev/Te+Zb4Ieiin1+In27nhbFBI/ocZRAIixAZbvV3VvzpYZpVsZw0heSm/moRrI5tylffD2oamoa1hQ8O8aTxijyVQpfwcQUFAosM3k/rqaQZvERifEZrhcdLAtOieRkMZ3hhMHNu34ReTsOAOpSgr1CRKEiB2Cb01K0ZmAVutDKntbwU+kUfrOGe/riuylS7hhH/WXTU/UeYSssO9ZcLFQ==" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
             
     
 
@@ -3258,16 +3258,14 @@ ST uses the personal data that you provide directly to it and through your activ
                                 <div class="st-card__date">
                                     
     
-        Mar 22, 2021
+        Mar 29, 2021
     
 
                                 </div>
                                 <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4337.html" title="Highly Integrated, Galvanically Isolated Sigma-Delta Modulators  from STMicroelectronics Boost Accuracy and Reliability" class="st-card__image js-st-object-fit">
-                                        <img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/03/ISOSD61_sigma_modulators_N4337D_s.jpg" alt="Highly Integrated, Galvanically Isolated Sigma-Delta Modulators  from STMicroelectronics Boost Accuracy and Reliability" title="Highly Integrated, Galvanically Isolated Sigma-Delta Modulators  from STMicroelectronics Boost Accuracy and Reliability"/>
-                                    </a>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4337.html" class="st-card__copy js-st-dotdotdot ">
-                                        Highly Integrated, Galvanically Isolated Sigma-Delta Modulators  from STMicroelectronics Boost Accuracy and Reliability
+                                    
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/t4354.html" class="st-card__copy js-st-dotdotdot ">
+                                        STMicroelectronics and OQmented to Jointly Develop, Manufacture,  and Market Advanced MEMS Mirror-Based Laser-Beam Scanning Solutions
                                     </a>
                                 </div>
                             </div>
@@ -3278,14 +3276,14 @@ ST uses the personal data that you provide directly to it and through your activ
                                 <div class="st-card__date">
                                     
     
-        Mar 22, 2021
+        Mar 25, 2021
     
 
                                 </div>
                                 <div>
                                     
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2991.html" class="st-card__copy js-st-dotdotdot ">
-                                        STMicroelectronics Announces Status of Common Share Repurchase Program
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2992.html" class="st-card__copy js-st-dotdotdot ">
+                                        STMicroelectronics Reports on Resolutions to be Proposed  at the 2021 Annual General Meeting of Shareholders
                                     </a>
                                 </div>
                             </div>
@@ -3296,16 +3294,16 @@ ST uses the personal data that you provide directly to it and through your activ
                                 <div class="st-card__date">
                                     
     
-        Mar 18, 2021
+        Mar 25, 2021
     
 
                                 </div>
                                 <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4344.html" title="Isolated Gate Driver from STMicroelectronics Safely Controls Silicon-Carbide MOSFETs" class="st-card__image js-st-object-fit">
-                                        <img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/03/STGAP2SICS_gate_driver_N4344D_s.jpg" alt="Isolated Gate Driver from STMicroelectronics Safely Controls Silicon-Carbide MOSFETs" title="Isolated Gate Driver from STMicroelectronics Safely Controls Silicon-Carbide MOSFETs"/>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4339.html" title="High-Accuracy Op Amp from STMicroelectronics Targets Energy-Efficient Power Conversion" class="st-card__image js-st-object-fit">
+                                        <img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/03/TSV7722_5V_op_amps_N4339D_s.jpg" alt="High-Accuracy Op Amp from STMicroelectronics Targets Energy-Efficient Power Conversion" title="High-Accuracy Op Amp from STMicroelectronics Targets Energy-Efficient Power Conversion"/>
                                     </a>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4344.html" class="st-card__copy js-st-dotdotdot ">
-                                        Isolated Gate Driver from STMicroelectronics Safely Controls Silicon-Carbide MOSFETs
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4339.html" class="st-card__copy js-st-dotdotdot ">
+                                        High-Accuracy Op Amp from STMicroelectronics Targets Energy-Efficient Power Conversion
                                     </a>
                                 </div>
                             </div>
@@ -21014,6 +21012,46 @@ I understand that I can withdraw my consent at any time through opt-out links em
                             </div>
                             <div class="js-st-footer__slider st-footer__slider" data-slick="{&quot;speed&quot;: 1500, &quot;autoplay&quot;: false}">
                                 <div>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/t4354.html" class="st-footer__slider-img">
+                                        <img class="lazyload" alt="STMicroelectronics and OQmented to Jointly Develop, Manufacture,  and Market Advanced MEMS Mirror-Based Laser-Beam Scanning Solutions" title="STMicroelectronics and OQmented to Jointly Develop, Manufacture,  and Market Advanced MEMS Mirror-Based Laser-Beam Scanning Solutions" data-src="/etc/clientlibs/st-site-cx/media/app/images/home/placeholder_PR.jpg"/>
+                                    </a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Mar 29, 2021</p>
+                                        <a href="https://newsroom.st.com/media-center/press-item.html/t4354.html"><p class="st-press-teaser-footer__content">STMicroelectronics and OQmented to Jointly Develop, Manufacture,  and Market Advanced MEMS Mirror-Based Laser-Beam Scanning Solutions</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <a href="https://blog.st.com/nucleo-wb55rg/" class="st-footer__slider-img">
+                                        <img class="lazyload" alt="NUCLEO-WB55RG, a Simpler Development Board for the STM32WB MCU" title="NUCLEO-WB55RG, a Simpler Development Board for the STM32WB MCU" data-src="https://blog.st.com/wp-content/uploads/banner-5-560x240.jpg"/>
+                                    </a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Mar 26, 2021</p>
+                                        <a href="https://blog.st.com/nucleo-wb55rg/"><p class="st-press-teaser-footer__content">NUCLEO-WB55RG, a Simpler Development Board for the STM32WB MCU</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2992.html" class="st-footer__slider-img">
+                                        <img class="lazyload" alt="STMicroelectronics Reports on Resolutions to be Proposed  at the 2021 Annual General Meeting of Shareholders" title="STMicroelectronics Reports on Resolutions to be Proposed  at the 2021 Annual General Meeting of Shareholders" data-src="/etc/clientlibs/st-site-cx/media/app/images/home/placeholder_PR.jpg"/>
+                                    </a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Mar 25, 2021</p>
+                                        <a href="https://newsroom.st.com/media-center/press-item.html/c2992.html"><p class="st-press-teaser-footer__content">STMicroelectronics Reports on Resolutions to be Proposed  at the 2021 Annual General Meeting of Shareholders</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4339.html" class="st-footer__slider-img">
+                                        <img class="lazyload" alt="High-Accuracy Op Amp from STMicroelectronics Targets Energy-Efficient Power Conversion" title="High-Accuracy Op Amp from STMicroelectronics Targets Energy-Efficient Power Conversion" data-src="https://newsroom.st.com/wp-content/uploads/2021/03/TSV7722_5V_op_amps_N4339D_s.jpg"/>
+                                    </a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Mar 25, 2021</p>
+                                        <a href="https://newsroom.st.com/media-center/press-item.html/n4339.html"><p class="st-press-teaser-footer__content">High-Accuracy Op Amp from STMicroelectronics Targets Energy-Efficient Power Conversion</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
                                     <a href="https://blog.st.com/phytec/" class="st-footer__slider-img">
                                         <img class="lazyload" alt="Phytec and STM32MP1, What Can the phyCORE-STM32MP15x SoM Do for You?" title="Phytec and STM32MP1, What Can the phyCORE-STM32MP15x SoM Do for You?" data-src="https://blog.st.com/wp-content/uploads/ST12505_GettyImages-987750672-lprbanner-560x240.jpg"/>
                                     </a>
@@ -21064,16 +21102,6 @@ I understand that I can withdraw my consent at any time through opt-out links em
                                 </div>
                             
                                 <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2990.html" class="st-footer__slider-img">
-                                        <img class="lazyload" alt="STMicroelectronics Announces Status of Common Share Repurchase Program" title="STMicroelectronics Announces Status of Common Share Repurchase Program" data-src="/etc/clientlibs/st-site-cx/media/app/images/home/placeholder_PR.jpg"/>
-                                    </a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Mar 15, 2021</p>
-                                        <a href="https://newsroom.st.com/media-center/press-item.html/c2990.html"><p class="st-press-teaser-footer__content">STMicroelectronics Announces Status of Common Share Repurchase Program</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
                                     <a href="https://blog.st.com/stm32wb15-stm32wb10/" class="st-footer__slider-img">
                                         <img class="lazyload" alt="STM32WB15 and STM32WB10, 320KB of Flash and 48 KB of RAM to Bring Bluetooth 5.2 to Cost-Effective Applications" title="STM32WB15 and STM32WB10, 320KB of Flash and 48 KB of RAM to Bring Bluetooth 5.2 to Cost-Effective Applications" data-src="https://blog.st.com/wp-content/uploads/NB_STM32WB15-10_HR_AIAPbanner-560x240.jpg"/>
                                     </a>
@@ -21084,32 +21112,12 @@ I understand that I can withdraw my consent at any time through opt-out links em
                                 </div>
                             
                                 <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4336.html" class="st-footer__slider-img">
-                                        <img class="lazyload" alt="New STM32WB Wireless Microcontrollers from STMicroelectronics Deliver Affordable Convenience and Performance" title="New STM32WB Wireless Microcontrollers from STMicroelectronics Deliver Affordable Convenience and Performance" data-src="https://newsroom.st.com/wp-content/uploads/2021/03/STM32WB1x_ecosystem_N4336S_s.jpg"/>
-                                    </a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Mar 10, 2021</p>
-                                        <a href="https://newsroom.st.com/media-center/press-item.html/n4336.html"><p class="st-press-teaser-footer__content">New STM32WB Wireless Microcontrollers from STMicroelectronics Deliver Affordable Convenience and Performance</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
                                     <a href="https://blog.st.com/steval-stwinkt1b/" class="st-footer__slider-img">
                                         <img class="lazyload" alt="STEVAL-STWINKT1B: New Components and Application Examples Help Developers Working on Condition Monitoring Applications with AI at the Edge" title="STEVAL-STWINKT1B: New Components and Application Examples Help Developers Working on Condition Monitoring Applications with AI at the Edge" data-src="https://blog.st.com/wp-content/uploads/ST11792_GettyImages-926883214-lprbanner-560x240.jpg"/>
                                     </a>
                                     <div class="st-footer__slider-content">
                                         <p class="st-press-teaser-footer__headline">Mar 9, 2021</p>
                                         <a href="https://blog.st.com/steval-stwinkt1b/"><p class="st-press-teaser-footer__content">STEVAL-STWINKT1B: New Components and Application Examples Help Developers Working on Condition Monitoring Applications with AI at the Edge</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/t4264.html" class="st-footer__slider-img">
-                                        <img class="lazyload" alt="World’s Smallest Micro-Mirror Scanning Technology from STMicroelectronics Chosen for Intel® RealSense™ High-Resolution LiDAR Depth Camera L515" title="World’s Smallest Micro-Mirror Scanning Technology from STMicroelectronics Chosen for Intel® RealSense™ High-Resolution LiDAR Depth Camera L515" data-src="https://newsroom.st.com/wp-content/uploads/2021/03/ST_MEMS-micro_mirrors_Intel_LiDAR_camera_T4264D_s.jpg"/>
-                                    </a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Mar 8, 2021</p>
-                                        <a href="https://newsroom.st.com/media-center/press-item.html/t4264.html"><p class="st-press-teaser-footer__content">World’s Smallest Micro-Mirror Scanning Technology from STMicroelectronics Chosen for Intel® RealSense™ High-Resolution LiDAR Depth Camera L515</p></a>
                                     </div>
                                 </div>
                             
@@ -21160,16 +21168,6 @@ I understand that I can withdraw my consent at any time through opt-out links em
                                     <div class="st-footer__slider-content">
                                         <p class="st-press-teaser-footer__headline">Feb 26, 2021</p>
                                         <a href="https://blog.st.com/madeforstm32-v2/"><p class="st-press-teaser-footer__content">MadeForSTM32 v2 for I-CUBE Packages Accessible Within STM32CubeMX</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
-                                    <a href="https://blog.st.com/stm32u5-microvisor/" class="st-footer__slider-img">
-                                        <img class="lazyload" alt="Microvisor and STM32U5, The Best Performance-per-Watt MCU, 1st to Support a New IoT Development Paradigm" title="Microvisor and STM32U5, The Best Performance-per-Watt MCU, 1st to Support a New IoT Development Paradigm" data-src="https://blog.st.com/wp-content/uploads/ST20250_GettyImages-157529202-lprbanner-560x240.jpg"/>
-                                    </a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Feb 25, 2021</p>
-                                        <a href="https://blog.st.com/stm32u5-microvisor/"><p class="st-press-teaser-footer__content">Microvisor and STM32U5, The Best Performance-per-Watt MCU, 1st to Support a New IoT Development Paradigm</p></a>
                                     </div>
                                 </div>
                             </div>

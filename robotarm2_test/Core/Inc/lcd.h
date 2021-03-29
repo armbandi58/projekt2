@@ -21,7 +21,7 @@ void LCD_init(void);
 void LCD_data(uint8_t data);
 void LCD_command(uint8_t cmd);
 void LCD_string(char *p);
-//void LCD_goto(uint8_t row, uint8_t col);
+void LCD_goto(uint8_t row, uint8_t col);
 void LCD_init_customcurzor(bool on, bool blink);
 void LCD_test(void);
 void LCD_ide(u8 sor, u8 hely);
@@ -30,5 +30,6 @@ void LCD_float(float f_number, int lenght);
 void ftoa(float n, char* res, int afterpoint);
 int intToStr(int x, char str[], int d);
 void reverse(char* str, int len);
+void LCD_int2(uint32_t number, int lenght);
 
 #endif /* LCD_H_ */
